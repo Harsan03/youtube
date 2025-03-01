@@ -1,0 +1,58 @@
+
+      .Video-title{
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 19px;
+        width: 300px;
+        line-height: 27px;
+        margin-bottom: -10px;
+      }
+       .Video-description{
+        font-family: arial;
+        color: rgb(94, 94, 94);
+        margin-bottom: 20px;
+       }
+      
+       .Video-channel{
+        font-family: arial;
+        color: rgb(94, 94, 94);
+        text-decoration: none;
+       }
+       .Video-channel:hover{
+        text-decoration: underline;
+        cursor: pointer;
+       }
+       
+       .video-about{
+        font-family: arial;
+        color: rgb(94, 94, 94);
+        width: 300px;
+        line-height: 22px;
+       }
+       .SUBSCRIBE_button{ 
+          background-color: rgb(212, 5, 5);
+          color: white;
+          border: none;
+          height: 36px;
+          width: 105px;
+          border-radius: 3px;
+          cursor: pointer;
+          margin-right: 10px;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          transition: 0.15s;
+          
+        }
+      
+        .SUBSCRIBE_button:hover{
+          opacity: 0.6;
+        }
+        .SUBSCRIBE_button:active{
+          opacity: 0.8;
+        }
+        .Video-channel.SUBSCRIBE_button{
+          display: inline;
+        }
+      
